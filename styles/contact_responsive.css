@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+/************
+4. 1199px
+************/
+
+@media only screen and (max-width: 1199px)
+{
+	.latest_games_teams
+	{
+		margin-top: -5px;
+	}
+	.latest_games_teams > div:first-child .team_name
+	{
+		margin-left: 0;
+		margin-top: 3px;
+	}
+	.latest_games_teams > div:last-child .team_name
+	{
+		margin-right: 0;
+		margin-top: 3px;
+	}
+}
+
+
+/************
+6. 991px
+************/
+
+	.contact_image
+	{
+		margin-top: 70px;
+	}
+	.contact_image .background_image
+	{
+		display: none;
+	}
+	.contact_image img
+	{
+		display: block;
+	}
+
+}
+
